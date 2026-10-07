@@ -1,0 +1,8 @@
+{
+  "name": "Mini Drift",
+  "description": "A high-performance, low-poly arcade driving game featuring responsive drift physics and instant, endless gameplay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

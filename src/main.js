@@ -1,0 +1,16 @@
+import './index.css';
+import { Game } from './game.js';
+
+function bootstrap() {
+  const container = document.getElementById('game-container');
+  if (!container) {
+    throw new Error('Missing #game-container element');
+  }
+  new Game(container);
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', bootstrap);
+} else {
+  bootstrap();
+}
